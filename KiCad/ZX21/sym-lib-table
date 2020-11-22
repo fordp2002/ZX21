@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Sinclair)(type Legacy)(uri ${KIPRJMOD}/Sinclair.lib)(options "")(descr ""))
+)

@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 27512
+D REPROM 64 Ko
+K REPROM 64KO
+$ENDCMP
+#
+$CMP 27C512XX
+D REPROM 64 Ko
+K REPROM 64KO
+$ENDCMP
+#
+$CMP Z80CPU_ZX
+D 8-bit General Purpose Microprocessor, DIP-40
+K CPU uP 8-bit
+F www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080
+$ENDCMP
+#
+#End Doc Library
