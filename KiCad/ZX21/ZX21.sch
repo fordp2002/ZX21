@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -138,8 +138,6 @@ Wire Wire Line
 	1625 4900 1625 4950
 Connection ~ 1625 4900
 Wire Wire Line
-	1300 4900 1625 4900
-Wire Wire Line
 	1625 4800 1625 4900
 Text GLabel 1975 3075 0    50   Input ~ 0
 TAPE_OUT
@@ -215,8 +213,8 @@ F 3 "" H 1300 3975 50  0001 C CNN
 	1    1300 3975
 	1    0    0    -1  
 $EndComp
-Text GLabel 1625 3850 3    50   Input ~ 0
-TAPE_IN
+Text GLabel 1625 4900 0    50   Input ~ 0
+EAR_IN
 Wire Wire Line
 	1625 3775 1625 4200
 Wire Wire Line
@@ -265,51 +263,51 @@ F 3 "" H 1625 4350 50  0001 C CNN
 	1    1625 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1300 4800 2    50   Input ~ 0
+Text GLabel 975  3650 2    50   Input ~ 0
 SOUND
-NoConn ~ 1300 3650
+NoConn ~ 975  4800
 $Comp
 L power:GND #PWR?
 U 1 1 60888140
-P 900 3850
-F 0 "#PWR?" H 900 3600 50  0001 C CNN
-F 1 "GND" H 905 3677 50  0000 C CNN
-F 2 "" H 900 3850 50  0001 C CNN
-F 3 "" H 900 3850 50  0001 C CNN
-	1    900  3850
+P 575 3850
+F 0 "#PWR?" H 575 3600 50  0001 C CNN
+F 1 "GND" H 580 3677 50  0000 C CNN
+F 2 "" H 575 3850 50  0001 C CNN
+F 3 "" H 575 3850 50  0001 C CNN
+	1    575  3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6088801B
-P 900 5000
-F 0 "#PWR?" H 900 4750 50  0001 C CNN
-F 1 "GND" H 905 4827 50  0000 C CNN
-F 2 "" H 900 5000 50  0001 C CNN
-F 3 "" H 900 5000 50  0001 C CNN
-	1    900  5000
+P 575 5000
+F 0 "#PWR?" H 575 4750 50  0001 C CNN
+F 1 "GND" H 580 4827 50  0000 C CNN
+F 2 "" H 575 5000 50  0001 C CNN
+F 3 "" H 575 5000 50  0001 C CNN
+	1    575  5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Audio-Jack-3 MIC
 U 1 1 60859C36
-P 1100 3750
-F 0 "MIC" H 1075 3950 50  0000 C CNN
-F 1 "Audio-Jack-3" H 1078 3984 50  0001 C CNN
-F 2 "" H 1350 3850 50  0001 C CNN
-F 3 "~" H 1350 3850 50  0001 C CNN
-	1    1100 3750
+P 775 3750
+F 0 "MIC" H 750 3950 50  0000 C CNN
+F 1 "Audio-Jack-3" H 753 3984 50  0001 C CNN
+F 2 "" H 1025 3850 50  0001 C CNN
+F 3 "~" H 1025 3850 50  0001 C CNN
+	1    775  3750
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Audio-Jack-3 EAR
 U 1 1 60858882
-P 1100 4900
-F 0 "EAR" H 1050 5100 50  0000 C CNN
-F 1 "Audio-Jack-3" H 1078 5134 50  0001 C CNN
-F 2 "" H 1350 5000 50  0001 C CNN
-F 3 "~" H 1350 5000 50  0001 C CNN
-	1    1100 4900
+P 775 4900
+F 0 "EAR" H 725 5100 50  0000 C CNN
+F 1 "Audio-Jack-3" H 753 5134 50  0001 C CNN
+F 2 "" H 1025 5000 50  0001 C CNN
+F 3 "~" H 1025 5000 50  0001 C CNN
+	1    775  4900
 	1    0    0    -1  
 $EndComp
 Text GLabel 4750 1775 3    50   Input ~ 0
@@ -2499,4 +2497,14 @@ Text GLabel 10050 5050 2    50   Input ~ 0
 ROW7
 Text GLabel 10050 4950 2    50   Input ~ 0
 ROW8
+$Sheet
+S 7225 700  1100 325 
+U 632617C4
+F0 "Extras" 50
+F1 "ZX21_Extras.sch" 50
+$EndSheet
+Wire Wire Line
+	1300 3750 975  3750
+Wire Wire Line
+	975  4900 1625 4900
 $EndSCHEMATC

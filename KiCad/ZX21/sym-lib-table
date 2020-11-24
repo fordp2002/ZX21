@@ -3,4 +3,5 @@
   (lib (name zxbus)(type Legacy)(uri ${KIPRJMOD}/zxbus.lib)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name ZX21-rescue)(type Legacy)(uri ${KIPRJMOD}/ZX21-rescue.lib)(options "")(descr ""))
+  (lib (name ESP32-footprints-Shem-Lib)(type Legacy)(uri ${KIPRJMOD}/ESP32-Footprints/ESP32-footprints-Shem-Lib.lib)(options "")(descr ""))
 )

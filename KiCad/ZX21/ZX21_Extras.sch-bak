@@ -1,0 +1,389 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32-footprints-Shem-Lib:ESP32-WROOM IC302
+U 1 1 63264912
+P 3050 2100
+F 0 "IC302" H 3025 3487 60  0000 C CNN
+F 1 "ESP32-WROOM" H 3025 3381 60  0000 C CNN
+F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 3400 3450 60  0001 C CNN
+F 3 "" H 2600 2550 60  0001 C CNN
+	1    3050 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63266B61
+P 2100 3225
+F 0 "#PWR?" H 2100 2975 50  0001 C CNN
+F 1 "GND" H 2105 3052 50  0000 C CNN
+F 2 "" H 2100 3225 50  0001 C CNN
+F 3 "" H 2100 3225 50  0001 C CNN
+	1    2100 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L regul:L7805 IC301
+U 1 1 63267ABE
+P 1175 1500
+F 0 "IC301" H 1175 1742 50  0000 C CNN
+F 1 "3V3 PSU" H 1175 1651 50  0000 C CNN
+F 2 "" H 1200 1350 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1175 1450 50  0001 C CNN
+	1    1175 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 1500 1550 1500
+$Comp
+L power:+9V #PWR?
+U 1 1 6326A474
+P 800 1500
+F 0 "#PWR?" H 800 1350 50  0001 C CNN
+F 1 "+9V" H 815 1673 50  0000 C CNN
+F 2 "" H 800 1500 50  0001 C CNN
+F 3 "" H 800 1500 50  0001 C CNN
+	1    800  1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:CP C301
+U 1 1 6326BE4E
+P 800 2075
+F 0 "C301" H 850 2175 50  0000 L CNN
+F 1 "47U 25V" H 825 1975 50  0000 L CNN
+F 2 "" H 838 1925 50  0001 C CNN
+F 3 "" H 800 2075 50  0001 C CNN
+	1    800  2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	875  1500 800  1500
+Wire Wire Line
+	800  1500 800  1925
+Connection ~ 800  1500
+$Comp
+L device:CP C302
+U 1 1 6326D10F
+P 1550 2025
+F 0 "C302" H 1575 2125 50  0000 L CNN
+F 1 "22U" H 1575 1925 50  0000 L CNN
+F 2 "" H 1588 1875 50  0001 C CNN
+F 3 "" H 1550 2025 50  0001 C CNN
+	1    1550 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1875 1550 1500
+Connection ~ 1550 1500
+Wire Wire Line
+	1550 1500 2100 1500
+$Comp
+L device:R R301
+U 1 1 63270A39
+P 1825 1275
+F 0 "R301" V 1825 1175 50  0000 L CNN
+F 1 "1K" H 1895 1230 50  0000 L CNN
+F 2 "" V 1755 1275 50  0001 C CNN
+F 3 "" H 1825 1275 50  0001 C CNN
+	1    1825 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R302
+U 1 1 63271A88
+P 1825 2350
+F 0 "R302" V 1825 2250 50  0000 L CNN
+F 1 "4K7" H 1895 2305 50  0000 L CNN
+F 2 "" V 1755 2350 50  0001 C CNN
+F 3 "" H 1825 2350 50  0001 C CNN
+	1    1825 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1000 1825 1125
+Text GLabel 1825 1000 1    50   Input ~ 0
+TAPE_OUT
+Wire Wire Line
+	1825 1425 1825 1700
+Wire Wire Line
+	1825 2500 1825 2800
+Connection ~ 1825 2800
+Wire Wire Line
+	2100 1700 1825 1700
+Connection ~ 1825 1700
+Wire Wire Line
+	1825 1700 1825 2200
+Text GLabel 1825 1700 1    50   Input ~ 0
+VP
+Connection ~ 1175 3225
+Wire Wire Line
+	1175 3225 800  3225
+Connection ~ 1550 3225
+Wire Wire Line
+	1550 3225 1175 3225
+Wire Wire Line
+	1825 2800 1825 3225
+Connection ~ 1825 3225
+Wire Wire Line
+	1825 3225 1550 3225
+Wire Wire Line
+	1825 2800 2100 2800
+Wire Wire Line
+	800  2225 800  3225
+Connection ~ 2100 3225
+Wire Wire Line
+	2100 3225 1825 3225
+Wire Wire Line
+	1175 1800 1175 3225
+Wire Wire Line
+	1550 2175 1550 3225
+Wire Wire Line
+	4175 3225 4175 2750
+Wire Wire Line
+	4175 2750 3950 2750
+Wire Wire Line
+	2100 3225 2600 3225
+Wire Wire Line
+	2600 3150 2600 3225
+Connection ~ 2600 3225
+Wire Wire Line
+	2600 3225 4175 3225
+$Comp
+L device:R R303
+U 1 1 63275BDD
+P 4100 1075
+F 0 "R303" H 4170 1121 50  0000 L CNN
+F 1 "100R" H 4170 1030 50  0000 L CNN
+F 2 "" V 4030 1075 50  0001 C CNN
+F 3 "" H 4100 1075 50  0001 C CNN
+	1    4100 1075
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 875  1    50   Input ~ 0
+EAR_IN
+Wire Wire Line
+	4100 875  4100 925 
+Wire Wire Line
+	4100 1225 4100 1450
+Wire Wire Line
+	4100 1450 3950 1450
+Text GLabel 4100 1450 1    50   Input ~ 0
+IO22
+$Comp
+L regul:AZ1117-3.3 IC303
+U 1 1 63278C97
+P 1175 850
+F 0 "IC303" H 1175 1092 50  0000 C CNN
+F 1 "AZ1117-3.3" H 1175 1001 50  0000 C CNN
+F 2 "" H 1175 1100 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 1175 850 50  0001 C CNN
+	1    1175 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 850  1475 1500
+Connection ~ 1475 1500
+Wire Wire Line
+	875  850  875  1500
+Connection ~ 875  1500
+$Comp
+L power:GND #PWR?
+U 1 1 6327B84A
+P 1175 1150
+F 0 "#PWR?" H 1175 900 50  0001 C CNN
+F 1 "GND" V 1180 1022 50  0000 R CNN
+F 2 "" H 1175 1150 50  0001 C CNN
+F 3 "" H 1175 1150 50  0001 C CNN
+	1    1175 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:DB9_Male J401
+U 1 1 6333C544
+P 825 6475
+F 0 "J401" H 743 7167 50  0000 C CNN
+F 1 "DB9_Male" H 743 7076 50  0000 C CNN
+F 2 "" H 825 6475 50  0001 C CNN
+F 3 "" H 825 6475 50  0001 C CNN
+	1    825  6475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:R R401
+U 1 1 6333EE6D
+P 1250 6025
+F 0 "R401" V 1250 5925 50  0000 L CNN
+F 1 "10K" V 1325 5950 50  0000 L CNN
+F 2 "" V 1180 6025 50  0001 C CNN
+F 3 "" H 1250 6025 50  0001 C CNN
+	1    1250 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 63340297
+P 1250 5875
+F 0 "#PWR?" H 1250 5725 50  0001 C CNN
+F 1 "+5V" H 1265 6048 50  0000 C CNN
+F 2 "" H 1250 5875 50  0001 C CNN
+F 3 "" H 1250 5875 50  0001 C CNN
+	1    1250 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:2N3904 TR402
+U 1 1 633416FA
+P 2025 5825
+F 0 "TR402" H 2215 5871 50  0000 L CNN
+F 1 "2N3904" H 2215 5780 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2225 5750 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2025 5825 50  0001 L CNN
+	1    2025 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:2N3904 QTR403
+U 1 1 633427C1
+P 2025 6325
+F 0 "QTR403" H 2215 6371 50  0000 L CNN
+F 1 "2N3904" H 2215 6280 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2225 6250 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2025 6325 50  0001 L CNN
+	1    2025 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:2N3904 TR404
+U 1 1 6334339D
+P 2025 6825
+F 0 "TR404" H 2215 6871 50  0000 L CNN
+F 1 "2N3904" H 2215 6780 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2225 6750 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2025 6825 50  0001 L CNN
+	1    2025 6825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:2N3904 TR405
+U 1 1 63343A3F
+P 2050 7350
+F 0 "TR405" H 2240 7396 50  0000 L CNN
+F 1 "2N3904" H 2240 7305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2250 7275 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2050 7350 50  0001 L CNN
+	1    2050 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor:2N3904 TR401
+U 1 1 63344043
+P 2000 5275
+F 0 "TR401" H 2190 5321 50  0000 L CNN
+F 1 "2N3904" H 2190 5230 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2200 5200 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 2000 5275 50  0001 L CNN
+	1    2000 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5275 1800 5275
+Wire Wire Line
+	1650 6275 1650 5275
+Wire Wire Line
+	1125 6275 1650 6275
+Wire Wire Line
+	1250 6175 1250 6375
+NoConn ~ 1125 6075
+NoConn ~ 1125 6175
+NoConn ~ 1125 6575
+Wire Wire Line
+	1825 5825 1725 5825
+Wire Wire Line
+	1725 5825 1725 6475
+Wire Wire Line
+	1725 6475 1125 6475
+Wire Wire Line
+	1825 6325 1825 6675
+Wire Wire Line
+	1825 6675 1125 6675
+Wire Wire Line
+	1825 6825 1800 6825
+Wire Wire Line
+	1800 6825 1800 6775
+Wire Wire Line
+	1800 6775 1125 6775
+Wire Wire Line
+	1850 7350 1700 7350
+Wire Wire Line
+	1700 7350 1700 6875
+Wire Wire Line
+	1700 6875 1125 6875
+Wire Wire Line
+	2100 5475 2775 5475
+Wire Wire Line
+	2775 7550 2150 7550
+Wire Wire Line
+	2125 7025 2775 7025
+Connection ~ 2775 7025
+Wire Wire Line
+	2775 7025 2775 7550
+Wire Wire Line
+	2125 6525 2775 6525
+Connection ~ 2775 6525
+Wire Wire Line
+	2775 6525 2775 7025
+Text GLabel 2775 5975 1    50   Input ~ 0
+ROW4
+Wire Wire Line
+	2775 5475 2775 6525
+Text GLabel 2250 6025 2    50   Input ~ 0
+ROW1
+Text GLabel 2300 5075 2    50   Input ~ 0
+KBD2
+Text GLabel 2575 5975 1    50   Input ~ 0
+KBD4
+Wire Wire Line
+	2125 5625 2575 5625
+Wire Wire Line
+	2575 5625 2575 6125
+Wire Wire Line
+	2575 6125 2125 6125
+Wire Wire Line
+	2300 5075 2100 5075
+Text GLabel 2350 6625 2    50   Input ~ 0
+KBD0
+Text GLabel 2375 7150 2    50   Input ~ 0
+KBD3
+Wire Wire Line
+	2350 6625 2125 6625
+Wire Wire Line
+	2375 7150 2150 7150
+Wire Wire Line
+	1250 6375 1125 6375
+Text Notes 1400 6250 0    50   ~ 0
+RIGHT
+Text Notes 1400 6475 0    50   ~ 0
+LEFT
+Text Notes 1400 6675 0    50   ~ 0
+DOWN
+Text Notes 1425 6775 0    50   ~ 0
+FIRE
+Text Notes 1425 6875 0    50   ~ 0
+UP
+Wire Wire Line
+	2250 6025 2125 6025
+$EndSCHEMATC
