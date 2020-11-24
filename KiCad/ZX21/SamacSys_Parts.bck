@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP EG4208A
+D Slide Switches 4P2T SIDE OP PC MNT
+K
+F https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf
+$ENDCMP
+#
+#End Doc Library

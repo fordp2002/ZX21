@@ -15,12 +15,6 @@ D Slide Switches 4P2T SIDE OP PC MNT
 F https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf
 $ENDCMP
 #
-$CMP TLC555
-D CMOS Timer
-K Timer NE555
-F http://www.ti.com/lit/ds/symlink/tlc555.pdf
-$ENDCMP
-#
 $CMP Z80CPU_ZX
 D 8-bit General Purpose Microprocessor, DIP-40
 K CPU uP 8-bit
