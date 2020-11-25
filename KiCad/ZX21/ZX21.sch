@@ -1461,8 +1461,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 700  2550 700 
 Wire Wire Line
-	5650 1125 5650 775 
-Wire Wire Line
 	2650 775  2650 1825
 Wire Wire Line
 	5550 1125 5550 775 
@@ -2097,16 +2095,6 @@ Connection ~ 6100 775
 Wire Wire Line
 	5750 625  5750 1125
 Wire Wire Line
-	5800 700  5800 775 
-Wire Wire Line
-	5800 775  5650 775 
-Connection ~ 5800 775 
-Wire Wire Line
-	5800 775  5800 875 
-Connection ~ 5650 775 
-Wire Wire Line
-	5650 775  5650 700 
-Wire Wire Line
 	6150 1725 7100 1725
 Wire Wire Line
 	6150 1825 7200 1825
@@ -2381,15 +2369,8 @@ Wire Wire Line
 	4125 5825 4125 7075
 Wire Wire Line
 	4500 5925 4500 7075
-Connection ~ 5550 775 
 Wire Wire Line
 	6400 1050 5450 1050
-Wire Wire Line
-	5650 775  5550 775 
-Wire Wire Line
-	5500 775  5550 775 
-Wire Wire Line
-	2650 775  5550 775 
 Wire Wire Line
 	5850 1125 6500 1125
 Wire Wire Line
@@ -2498,7 +2479,7 @@ ROW7
 Text GLabel 10050 4950 2    50   Input ~ 0
 ROW8
 $Sheet
-S 7225 700  1100 325 
+S 7775 775  1100 325 
 U 632617C4
 F0 "Extras" 50
 F1 "ZX21_Extras.sch" 50
@@ -2507,4 +2488,30 @@ Wire Wire Line
 	1300 3750 975  3750
 Wire Wire Line
 	975  4900 1625 4900
+Wire Wire Line
+	2650 775  5550 775 
+Wire Wire Line
+	5800 700  5800 875 
+Wire Wire Line
+	5650 700  5650 1125
+Wire Wire Line
+	5800 700  5650 700 
+Connection ~ 5800 700 
+Connection ~ 5650 700 
+Text GLabel 4750 3025 0    50   Input ~ 0
+D0
+Text GLabel 4750 3125 0    50   Input ~ 0
+D1
+Text GLabel 4750 3225 0    50   Input ~ 0
+D2
+Text GLabel 4750 3325 0    50   Input ~ 0
+D3
+Text GLabel 4750 3425 0    50   Input ~ 0
+D4
+Text GLabel 4750 3525 0    50   Input ~ 0
+D5
+Text GLabel 4750 3625 0    50   Input ~ 0
+D6
+Text GLabel 4750 3725 0    50   Input ~ 0
+D7
 $EndSCHEMATC
