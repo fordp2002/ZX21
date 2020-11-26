@@ -197,18 +197,15 @@ $EndComp
 Wire Wire Line
 	1475 850  1475 1500
 Connection ~ 1475 1500
-Wire Wire Line
-	875  850  875  1500
-Connection ~ 875  1500
 $Comp
 L power:GND #PWR0133
 U 1 1 6327B84A
-P 1175 1150
-F 0 "#PWR0133" H 1175 900 50  0001 C CNN
-F 1 "GND" V 1180 1022 50  0000 R CNN
-F 2 "" H 1175 1150 50  0001 C CNN
-F 3 "" H 1175 1150 50  0001 C CNN
-	1    1175 1150
+P 675 1150
+F 0 "#PWR0133" H 675 900 50  0001 C CNN
+F 1 "GND" V 550 1100 50  0000 R CNN
+F 2 "" H 675 1150 50  0001 C CNN
+F 3 "" H 675 1150 50  0001 C CNN
+	1    675  1150
 	0    1    1    0   
 $EndComp
 $Comp
@@ -256,10 +253,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10275 1425 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor:2N3904 QTR403
+L Transistor:2N3904 TR403
 U 1 1 633427C1
 P 10275 1925
-F 0 "QTR403" H 10465 1971 50  0000 L CNN
+F 0 "TR403" H 10465 1971 50  0000 L CNN
 F 1 "2N3904" H 10465 1880 50  0000 L CNN
 F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 10475 1850 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 10275 1925 50  0001 L CNN
@@ -1008,4 +1005,83 @@ A7'
 Text GLabel 8150 2100 0    50   Input ~ 0
 A8'
 NoConn ~ 2100 1600
+$Comp
+L power:+3V3 #PWR0151
+U 1 1 5FD19FCC
+P 1550 1500
+F 0 "#PWR0151" H 1550 1350 50  0001 C CNN
+F 1 "+3V3" H 1565 1673 50  0000 C CNN
+F 2 "" H 1550 1500 50  0001 C CNN
+F 3 "" H 1550 1500 50  0001 C CNN
+	1    1550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0152
+U 1 1 5FD1EBA5
+P 650 850
+F 0 "#PWR0152" H 650 700 50  0001 C CNN
+F 1 "+5V" V 725 850 50  0000 L CNN
+F 2 "" H 650 850 50  0001 C CNN
+F 3 "" H 650 850 50  0001 C CNN
+	1    650  850 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	875  850  725  850 
+$Comp
+L device:C C303
+U 1 1 5FD2207C
+P 725 1000
+F 0 "C303" H 750 1100 50  0000 L CNN
+F 1 "10N" H 775 900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 763 850 50  0001 C CNN
+F 3 "" H 725 1000 50  0001 C CNN
+	1    725  1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 725  850 
+Wire Wire Line
+	725  850  650  850 
+Wire Wire Line
+	1175 1150 725  1150
+Wire Wire Line
+	725  1150 675  1150
+Connection ~ 725  1150
+$Comp
+L zxbus:AS6C4008Extra IC801
+U 1 1 5FDF782D
+P 5850 8100
+F 0 "IC801" H 5850 9117 50  0000 C CNN
+F 1 "AS6C4008Extra" H 5850 9026 50  0000 C CNN
+F 2 "zxbus:DIP-4_W15.24mm_Socket_LongPads" H 5850 8100 50  0001 C CIN
+F 3 "" H 5850 8100 50  0001 C CNN
+	1    5850 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0153
+U 1 1 5FDF89AC
+P 6425 7300
+F 0 "#PWR0153" H 6425 7150 50  0001 C CNN
+F 1 "+5V" H 6440 7473 50  0000 C CNN
+F 2 "" H 6425 7300 50  0001 C CNN
+F 3 "" H 6425 7300 50  0001 C CNN
+	1    6425 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 7300 6425 7350
+Wire Wire Line
+	6425 7350 6350 7350
+Text GLabel 6350 7450 2    50   Input ~ 0
+A15
+Wire Wire Line
+	5350 7350 5250 7350
+Wire Wire Line
+	5250 7350 5250 7450
+Wire Wire Line
+	5250 7450 5350 7450
+Text GLabel 5250 7400 0    50   Input ~ 0
+A14
 $EndSCHEMATC

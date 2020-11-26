@@ -1,3 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AS6C4008Extra
+D SRAM 32K x  8 bits, SOP28 450mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLFP-4SLT
+D SRAM 32K x  8 bits, SOP28 450mil, 45ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLFP-5SLT
+D SRAM 32K x  8 bits, SOP28 450mil, 55ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
+$CMP HM62256BLFP-7SLT
+D SRAM 32K x  8 bits, SOP28 450mil, 70ns
+K SRAM 32KB High Speed CMOS Static RAM
+$ENDCMP
+#
 #End Doc Library
