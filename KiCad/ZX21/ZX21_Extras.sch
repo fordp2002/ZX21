@@ -758,7 +758,7 @@ U 1 1 5FD027DB
 P 7125 1975
 F 0 "J701" H 7175 3200 50  0000 C CNN
 F 1 "Conn_02x23_Row_Letter_First" H 7175 3201 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x23_Pitch2.54mm" H 7125 1975 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_2x23_Pitch2.54mm" H 7125 1975 50  0001 C CNN
 F 3 "~" H 7125 1975 50  0001 C CNN
 	1    7125 1975
 	1    0    0    -1  

@@ -858,7 +858,7 @@ U 1 1 6039CEDA
 P 9550 5650
 F 0 "D1" H 9850 5700 50  0000 C CNN
 F 1 "1N4148" H 9550 5775 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9550 5475 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5475 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9550 5650 50  0001 C CNN
 	1    9550 5650
 	1    0    0    -1  
@@ -869,7 +869,7 @@ U 1 1 6039BAD8
 P 9700 5550
 F 0 "D2" H 9850 5600 50  0000 C CNN
 F 1 "1N4148" H 9700 5675 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9700 5375 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 5375 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 5550 50  0001 C CNN
 	1    9700 5550
 	1    0    0    -1  
@@ -880,7 +880,7 @@ U 1 1 6039A937
 P 9550 5450
 F 0 "D3" H 9850 5500 50  0000 C CNN
 F 1 "1N4148" H 9550 5575 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9550 5275 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5275 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9550 5450 50  0001 C CNN
 	1    9550 5450
 	1    0    0    -1  
@@ -891,7 +891,7 @@ U 1 1 603996D2
 P 9700 5350
 F 0 "D4" H 9850 5400 50  0000 C CNN
 F 1 "1N4148" H 9700 5475 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9700 5175 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 5175 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 5350 50  0001 C CNN
 	1    9700 5350
 	1    0    0    -1  
@@ -902,7 +902,7 @@ U 1 1 601FC39B
 P 9550 5250
 F 0 "D5" H 9850 5300 50  0000 C CNN
 F 1 "1N4148" H 9550 5375 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9550 5075 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 5075 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9550 5250 50  0001 C CNN
 	1    9550 5250
 	1    0    0    -1  
@@ -913,7 +913,7 @@ U 1 1 601FAD3E
 P 9700 5150
 F 0 "D6" H 9850 5200 50  0000 C CNN
 F 1 "1N4148" H 9700 5275 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9700 4975 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 4975 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 5150 50  0001 C CNN
 	1    9700 5150
 	1    0    0    -1  
@@ -924,7 +924,7 @@ U 1 1 601F97F3
 P 9550 5050
 F 0 "D7" H 9850 5100 50  0000 C CNN
 F 1 "1N4148" H 9550 5175 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9550 4875 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9550 4875 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9550 5050 50  0001 C CNN
 	1    9550 5050
 	1    0    0    -1  
@@ -935,7 +935,7 @@ U 1 1 601F845B
 P 9700 4950
 F 0 "D8" H 9850 5000 50  0000 C CNN
 F 1 "1N4148" H 9600 5050 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 9700 4775 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 9700 4775 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 9700 4950 50  0001 C CNN
 	1    9700 4950
 	1    0    0    -1  
@@ -1789,7 +1789,7 @@ U 1 1 5FDEF015
 P 900 775
 F 0 "D102" H 925 900 50  0000 C CNN
 F 1 "1N4148" H 1075 1000 50  0000 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 900 600 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 900 600 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 900 775 50  0001 C CNN
 	1    900  775 
 	1    0    0    -1  
@@ -1800,7 +1800,7 @@ U 1 1 5FDEFF10
 P 1200 775
 F 0 "D101" H 1225 900 50  0000 C CNN
 F 1 "1N4148" H 1225 1125 50  0001 C CNN
-F 2 "Diodes_ThroughHole:D_DO-27_P15.24mm_Horizontal" H 1200 600 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1200 600 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 1200 775 50  0001 C CNN
 	1    1200 775 
 	1    0    0    -1  
