@@ -1,4 +1,4 @@
--9219648255831933277
+3739863200607530
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -46787,6 +46787,20 @@ powermite3
 0
 0
 0
+SamacSys_Parts
+EG4208A
+EG4208A-1
+Switch
+0
+14
+14
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
 Shielding_Cabinets
 Laird_Technologies_97-2002_25.40x25.40mm
 Laird Technologies 97-2002 EZ PEEL Shielding Cabinet One Piece SMD 25.40x25.40mm
@@ -56174,3 +56188,59 @@ SolderWirePad_single_SMD_5x10mm
 0
 0
 0
+zxbus
+ASJ_125_3_3.5mm_Jack
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+3
+3
+zxbus
+NemoBus_Edge_Connector
+
+
+0
+60
+60
+zxbus
+NemoBus_SL62_Slot
+
+
+0
+62
+62
+zxbus
+PJ320D_3.5mm_Jack
+Headphones with microphone connector, 3.5mm, 4 pins.
+3.5mm jack mic microphone phones headphones 4pins audio plug
+0
+4
+4
+zxbus
+YELLOW_RCA
+
+
+0
+2
+2
+zxbus
+ZX_Bus_Edge_Connector
+
+
+0
+44
+44
+zxbus
+ZX_Bus_Pin_Header
+
+
+0
+56
+54
+zxbus
+ZX_Bus_Soviet_2.5mm
+
+
+0
+54
+54
