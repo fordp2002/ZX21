@@ -6,8 +6,12 @@ This a computer presevation project for the [Sinclair ZX81](https://github.com/f
 Features (Hopefully).
 
 * Drop in replacement for a ZX81
-* Built in 16K+ RAM: No need for a RAM Pack, Option for switching to 1K
-* Built in Composite Video Output with optional Back Porch Support for early ULAs
-* Barrel Jack power input : Center Positive
+* Built in 16K+ RAM, no need for a RAM Pack
+* Built in Composite Video Output 
+* Barrel Jack power input, center Positive
+* OPTION: Single Joystick port (not compatible with quickfire etc.)
+* OPTION: Switable to 1K RAM
+* OPTION: [Back Porch Support](http://zx.zigg.net/misc-projects/ZX81_Video_Conditioning.pdf) for early ULAs
 * OPTION: Built in support for [ZX-Wespi](https://github.com/holmatic/zx-iot-mi)
-* OPTION: 
+* OPTION: ZON-X Compatible Yamaha YM2149F Based Sound
+* OPTION: 16 Pin Box Header for DK'Tronics Keyboard
