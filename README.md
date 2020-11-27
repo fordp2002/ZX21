@@ -10,7 +10,7 @@ Features (Hopefully).
 * Built in Composite Video Output 
 * Barrel Jack power input, center Positive
 * OPTION: Single Joystick port (not compatible with quickfire etc.)
-* OPTION: Switable to 1K RAM
+* OPTION: Switchable to 1K RAM
 * OPTION: [Back Porch Support](http://zx.zigg.net/misc-projects/ZX81_Video_Conditioning.pdf) for early ULAs
 * OPTION: Built in support for [ZX-Wespi](https://github.com/holmatic/zx-iot-mi)
 * OPTION: [ZON-X](http://www.zx81stuff.org.uk/zx81/hardware/ZONX81) Compatible Yamaha YM2149F Based Sound
