@@ -10,6 +10,12 @@ D REPROM 64 Ko
 K REPROM 64KO
 $ENDCMP
 #
+$CMP Conn_02x23_Row_Letter_First
+D Generic connector, double row, 02x23, row letter first pin numbering scheme (pin number consists of a letter for the row and a number for the pin index in this row. a1, ..., aN; b1, ..., bN)
+K connector
+F ~
+$ENDCMP
+#
 $CMP EG4208A
 D Slide Switches 4P2T SIDE OP PC MNT
 F https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf

@@ -2368,8 +2368,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 4575 8300 4575
 Wire Wire Line
-	3650 4625 8400 4625
-Wire Wire Line
 	4450 1550 4375 1550
 Connection ~ 4450 1550
 Wire Wire Line
@@ -2527,18 +2525,18 @@ F 1 "74HCT00" V 7945 1213 50  0001 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7900 1025 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 7900 1025 50  0001 C CNN
 	3    7900 1025
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Logic_74xx:74HCT00 IC102
 U 4 1 5FD25FC1
 P 8275 1025
-F 0 "IC102" V 8250 900 50  0000 L CNN
-F 1 "74HCT00" V 8450 1150 50  0000 L CNN
+F 0 "IC102" V 8250 875 50  0000 L CNN
+F 1 "74HCT00" V 8450 625 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8275 1025 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 8275 1025 50  0001 C CNN
 	4    8275 1025
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	7100 3125 7100 1325
@@ -2661,4 +2659,28 @@ Wire Wire Line
 Connection ~ 8375 675 
 Wire Wire Line
 	8375 675  8375 725 
+Wire Wire Line
+	3650 4625 8400 4625
+$Comp
+L power:+5V #PWR0144
+U 1 1 5FD3AC5D
+P 5200 4675
+F 0 "#PWR0144" H 5200 4525 50  0001 C CNN
+F 1 "+5V" H 5215 4848 50  0000 C CNN
+F 2 "" H 5200 4675 50  0001 C CNN
+F 3 "" H 5200 4675 50  0001 C CNN
+	1    5200 4675
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 5FD3E8CA
+P 5200 6075
+F 0 "#PWR0157" H 5200 5825 50  0001 C CNN
+F 1 "GND" H 5205 5902 50  0000 C CNN
+F 2 "" H 5200 6075 50  0001 C CNN
+F 3 "" H 5200 6075 50  0001 C CNN
+	1    5200 6075
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

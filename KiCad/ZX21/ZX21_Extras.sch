@@ -387,6 +387,8 @@ $Comp
 L Sinclair:YM2149 IC501
 U 1 1 6336BED6
 P 9400 4575
+AR Path="/6336BED6" Ref="IC501"  Part="1" 
+AR Path="/632617C4/6336BED6" Ref="IC501"  Part="1" 
 F 0 "IC501" H 9150 3150 50  0000 C CNN
 F 1 "YM2149" H 9650 3175 50  0000 C CNN
 F 2 "Housings_DIP:DIP-40_W15.24mm_Socket_LongPads" H 9300 3775 50  0001 C CNN
@@ -457,51 +459,28 @@ F 3 "" H 1475 3700 50  0001 C CNN
 	1    1475 3700
 	0    1    1    0   
 $EndComp
-Text GLabel 6825 5775 0    50   Input ~ 0
+Text GLabel 6825 5675 0    50   Input ~ 0
 WR
 Text GLabel 6825 5375 0    50   Input ~ 0
 A3
 Text GLabel 6825 5275 0    50   Input ~ 0
 A2
-Text GLabel 6825 5175 0    50   Input ~ 0
-A1
-Text GLabel 6825 5075 0    50   Input ~ 0
-A0
 $Comp
 L Lattice:GAL16V8 IC502
 U 1 1 5FC6FB56
 P 7325 5475
-F 0 "IC502" H 7325 6291 50  0000 C CNN
-F 1 "GAL16V8" H 7325 6200 50  0000 C CNN
+F 0 "IC502" H 7075 4825 50  0000 C CNN
+F 1 "GAL16V8" H 7550 4825 50  0000 C CNN
 F 2 "Housings_DIP:DIP-20_W7.62mm_Socket_LongPads" H 7325 5475 50  0001 C CNN
 F 3 "" H 7325 5475 50  0001 C CNN
 	1    7325 5475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8125 5325 8125 5175
-Wire Wire Line
-	8125 5175 7825 5175
-Text GLabel 6825 4975 0    50   Input ~ 0
-CLK
 Text GLabel 6825 5475 0    50   Input ~ 0
 A4
-Text GLabel 6825 5875 0    50   Input ~ 0
+Text GLabel 6825 5775 0    50   Input ~ 0
 IORQ
-$Comp
-L Connector:Conn_01x05 J501
-U 1 1 5FC8BD22
-P 8025 5475
-F 0 "J501" V 8125 5400 50  0000 L CNN
-F 1 "Conn_01x05" H 8105 5426 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 8025 5475 50  0001 C CNN
-F 3 "~" H 8025 5475 50  0001 C CNN
-	1    8025 5475
-	1    0    0    -1  
-$EndComp
 Text GLabel 6825 5575 0    50   Input ~ 0
-A5
-Text GLabel 6825 5675 0    50   Input ~ 0
 A7
 $Comp
 L Connector:Conn_01x08 J502
@@ -601,71 +580,37 @@ SOUND
 $Comp
 L Connector:Conn_01x07 J504
 U 1 1 5FCB31AA
-P 7250 3875
-F 0 "J504" V 7350 3900 50  0000 C CNN
-F 1 "Conn_01x07" H 7168 4301 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 7250 3875 50  0001 C CNN
-F 3 "~" H 7250 3875 50  0001 C CNN
-	1    7250 3875
+P 7700 4125
+F 0 "J504" V 7800 4150 50  0000 C CNN
+F 1 "Conn_01x07" H 7618 4551 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 7700 4125 50  0001 C CNN
+F 3 "~" H 7700 4125 50  0001 C CNN
+	1    7700 4125
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8575 4775 8575 3675
-Wire Wire Line
-	8575 3675 7450 3675
-Wire Wire Line
-	8800 4775 8575 4775
-Wire Wire Line
-	8800 4875 8525 4875
-Wire Wire Line
-	8525 4875 8525 3775
-Wire Wire Line
-	8525 3775 7450 3775
-Wire Wire Line
-	8800 5175 8475 5175
-Wire Wire Line
-	8475 5175 8475 3875
-Wire Wire Line
-	8475 3875 7450 3875
-Wire Wire Line
 	7825 4975 8800 4975
-Wire Wire Line
-	8125 5325 8800 5325
-Wire Wire Line
-	7825 5075 8800 5075
-Wire Wire Line
-	8800 5425 8425 5425
-Wire Wire Line
-	8425 5425 8425 3975
-Wire Wire Line
-	8425 3975 7450 3975
-Wire Wire Line
-	8800 5525 8375 5525
-Wire Wire Line
-	8375 5525 8375 4075
-Wire Wire Line
-	8375 4075 7450 4075
 $Comp
 L power:GND #PWR0139
 U 1 1 5FCD4A93
-P 7450 4175
-F 0 "#PWR0139" H 7450 3925 50  0001 C CNN
-F 1 "GND" V 7455 4047 50  0000 R CNN
-F 2 "" H 7450 4175 50  0001 C CNN
-F 3 "" H 7450 4175 50  0001 C CNN
-	1    7450 4175
-	0    -1   -1   0   
+P 7375 4550
+F 0 "#PWR0139" H 7375 4300 50  0001 C CNN
+F 1 "GND" V 7380 4422 50  0000 R CNN
+F 2 "" H 7375 4550 50  0001 C CNN
+F 3 "" H 7375 4550 50  0001 C CNN
+	1    7375 4550
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0140
 U 1 1 5FCD57A2
-P 7450 3575
-F 0 "#PWR0140" H 7450 3425 50  0001 C CNN
-F 1 "+5V" V 7465 3703 50  0000 L CNN
-F 2 "" H 7450 3575 50  0001 C CNN
-F 3 "" H 7450 3575 50  0001 C CNN
-	1    7450 3575
-	0    1    1    0   
+P 7325 3700
+F 0 "#PWR0140" H 7325 3550 50  0001 C CNN
+F 1 "+5V" V 7340 3828 50  0000 L CNN
+F 2 "" H 7325 3700 50  0001 C CNN
+F 3 "" H 7325 3700 50  0001 C CNN
+	1    7325 3700
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4175 2750 4175 2650
@@ -750,17 +695,6 @@ ROW6
 Text Notes 5300 2625 0    50   ~ 0
 dK'tronics\nKEYBOARD
 $Comp
-L Connector:Conn_02x23_Row_Letter_First J701
-U 1 1 5FD027DB
-P 7125 1975
-F 0 "J701" H 7175 3200 50  0000 C CNN
-F 1 "Conn_02x23_Row_Letter_First" H 7175 3201 50  0001 C CNN
-F 2 "zxbus:Pin_Header_Straight_2x23_Pitch2.54mm" H 7125 1975 50  0001 C CNN
-F 3 "~" H 7125 1975 50  0001 C CNN
-	1    7125 1975
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x09 J702
 U 1 1 5FD0553E
 P 8350 2625
@@ -815,28 +749,6 @@ Text GLabel 6925 2975 0    50   Input ~ 0
 MI
 Text GLabel 6925 3075 0    50   Input ~ 0
 RFSH
-$Comp
-L power:GND #PWR0144
-U 1 1 5FD13F13
-P 6925 1075
-F 0 "#PWR0144" H 6925 825 50  0001 C CNN
-F 1 "GND" V 6930 947 50  0000 R CNN
-F 2 "" H 6925 1075 50  0001 C CNN
-F 3 "" H 6925 1075 50  0001 C CNN
-	1    6925 1075
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0145
-U 1 1 5FD14A25
-P 7425 1075
-F 0 "#PWR0145" H 7425 825 50  0001 C CNN
-F 1 "GND" V 7430 947 50  0000 R CNN
-F 2 "" H 7425 1075 50  0001 C CNN
-F 3 "" H 7425 1075 50  0001 C CNN
-	1    7425 1075
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:GND #PWR0146
 U 1 1 5FD157B7
@@ -1084,4 +996,99 @@ Wire Wire Line
 	5250 7450 5350 7450
 Text GLabel 5250 7400 0    50   Input ~ 0
 A14
+$Comp
+L Sinclair:Conn_02x23_Row_Letter_First J701
+U 1 1 601E93EA
+P 7125 1975
+F 0 "J701" H 7175 3175 50  0000 C CNN
+F 1 "Conn_02x23_Row_Letter_First" H 7175 3201 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_2x23_Pitch2.54mm" H 7125 1975 50  0001 C CNN
+F 3 "~" H 7125 1975 50  0001 C CNN
+	1    7125 1975
+	1    0    0    -1  
+$EndComp
+Text GLabel 6825 5175 0    50   Input ~ 0
+A1
+Text GLabel 6825 5075 0    50   Input ~ 0
+A0
+$Comp
+L Oscillators:ACO-xxxMHz X501
+U 1 1 5FF1A269
+P 6900 4125
+F 0 "X501" H 6800 3850 50  0000 R CNN
+F 1 "ECS-100AX-040" H 6750 4375 50  0000 R CNN
+F 2 "Oscillators:Oscillator_DIP-14" H 7350 3775 50  0001 C CNN
+F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 6800 4125 50  0001 C CNN
+	1    6900 4125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4425 7900 4550
+Wire Wire Line
+	7900 4550 7375 4550
+Wire Wire Line
+	7375 4550 6900 4550
+Wire Wire Line
+	6900 4550 6900 4425
+Connection ~ 7375 4550
+Wire Wire Line
+	7900 3825 7900 3700
+Wire Wire Line
+	7900 3700 7325 3700
+Wire Wire Line
+	7325 3700 6900 3700
+Wire Wire Line
+	6900 3700 6900 3825
+Connection ~ 7325 3700
+Wire Wire Line
+	8800 5325 8175 5325
+Wire Wire Line
+	8175 5325 8175 4650
+Wire Wire Line
+	8175 4650 7475 4650
+Wire Wire Line
+	7475 4650 7475 4125
+Wire Wire Line
+	7475 4125 7200 4125
+Wire Wire Line
+	8800 5525 8225 5525
+Wire Wire Line
+	8225 5525 8225 4325
+Wire Wire Line
+	8225 4325 7900 4325
+Wire Wire Line
+	8800 4875 8275 4875
+Wire Wire Line
+	8275 4875 8275 4225
+Wire Wire Line
+	8275 4225 7900 4225
+Wire Wire Line
+	8800 4775 8325 4775
+Wire Wire Line
+	8325 4775 8325 4125
+Wire Wire Line
+	8325 4125 7900 4125
+Wire Wire Line
+	7825 5075 8800 5075
+Wire Wire Line
+	8800 5175 8375 5175
+Wire Wire Line
+	8375 5175 8375 4025
+Wire Wire Line
+	8375 4025 7900 4025
+Text GLabel 6825 4975 0    50   Input ~ 0
+MREQ
+Text GLabel 6825 5875 0    50   Input ~ 0
+A15
+$Comp
+L Connector:Conn_01x06 J501
+U 1 1 5FF5C553
+P 8025 5375
+F 0 "J501" H 7950 4975 50  0000 L CNN
+F 1 "Conn_01x06" H 8025 4825 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 8025 5375 50  0001 C CNN
+F 3 "~" H 8025 5375 50  0001 C CNN
+	1    8025 5375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
