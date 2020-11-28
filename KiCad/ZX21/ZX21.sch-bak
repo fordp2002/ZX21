@@ -458,7 +458,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 5725 1725 5725
 Text GLabel 6150 3775 2    50   Input ~ 0
-BUSAK
+BUSRQ
 Text GLabel 6150 3875 2    50   Input ~ 0
 RFSH
 Wire Wire Line
@@ -1661,7 +1661,7 @@ U 1 1 5FBC724A
 P 2750 3025
 F 0 "IC1" H 2750 3325 50  0000 C CNN
 F 1 "ULA 2C210E" H 2750 3175 50  0000 C CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm_Socket_LongPads" H 3450 3725 50  0001 C CNN
+F 2 "zxbus:DIP-40_W25.4mm_Socket_LongPads" H 3450 3725 50  0001 C CNN
 F 3 "" H 3450 3725 50  0001 C CNN
 	1    2750 3025
 	1    0    0    -1  
@@ -2188,7 +2188,7 @@ U 1 1 5FBC93CD
 P 5450 2625
 F 0 "IC3" H 5450 2725 50  0000 C CNN
 F 1 "Z80A" H 5450 2625 50  0000 C CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm_Socket_LongPads" H 5450 3025 50  0001 C CNN
+F 2 "zxbus:DIP-40_W25.4mm_Socket_LongPads" H 5450 3025 50  0001 C CNN
 F 3 "www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080" H 5450 3025 50  0001 C CNN
 	1    5450 2625
 	1    0    0    -1  
@@ -2675,7 +2675,7 @@ U 5 1 5FC8AE73
 P 9800 1075
 F 0 "IC102" H 10030 1121 50  0000 L CNN
 F 1 "74HCT00" H 10030 1030 50  0000 L CNN
-F 2 "" H 9800 1075 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9800 1075 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 9800 1075 50  0001 C CNN
 	5    9800 1075
 	1    0    0    -1  

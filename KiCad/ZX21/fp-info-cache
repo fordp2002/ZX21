@@ -1,4 +1,4 @@
-3739876176168110
+3743095677528132
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -56223,6 +56223,20 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
 0
 4
 4
+zxbus
+DIP-28_W15.24mm_Socket_LongPads
+28-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
+0
+28
+28
+zxbus
+DIP-40_W15.24mm_Socket_LongPads
+40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
+0
+40
+40
 zxbus
 Pin_Header_Straight_2x23_Pitch2.54mm
 Through hole straight pin header, 2x23, 2.54mm pitch, double rows
