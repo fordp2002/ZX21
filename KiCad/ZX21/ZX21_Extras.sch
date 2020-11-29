@@ -580,38 +580,16 @@ SOUND
 $Comp
 L Connector:Conn_01x07 J504
 U 1 1 5FCB31AA
-P 7700 4125
-F 0 "J504" V 7800 4150 50  0000 C CNN
-F 1 "Conn_01x07" H 7618 4551 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 7700 4125 50  0001 C CNN
-F 3 "~" H 7700 4125 50  0001 C CNN
-	1    7700 4125
+P 7700 4225
+F 0 "J504" V 7800 4250 50  0000 C CNN
+F 1 "Conn_01x07" H 7618 4651 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 7700 4225 50  0001 C CNN
+F 3 "~" H 7700 4225 50  0001 C CNN
+	1    7700 4225
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7825 4975 8800 4975
-$Comp
-L power:GND #PWR0139
-U 1 1 5FCD4A93
-P 7375 4550
-F 0 "#PWR0139" H 7375 4300 50  0001 C CNN
-F 1 "GND" V 7380 4422 50  0000 R CNN
-F 2 "" H 7375 4550 50  0001 C CNN
-F 3 "" H 7375 4550 50  0001 C CNN
-	1    7375 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0140
-U 1 1 5FCD57A2
-P 7325 3700
-F 0 "#PWR0140" H 7325 3550 50  0001 C CNN
-F 1 "+5V" V 7340 3828 50  0000 L CNN
-F 2 "" H 7325 3700 50  0001 C CNN
-F 3 "" H 7325 3700 50  0001 C CNN
-	1    7325 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4175 2750 4175 2650
 Wire Wire Line
@@ -1011,45 +989,8 @@ Text GLabel 6825 5175 0    50   Input ~ 0
 A1
 Text GLabel 6825 5075 0    50   Input ~ 0
 A0
-$Comp
-L Oscillators:ACO-xxxMHz X501
-U 1 1 5FF1A269
-P 6900 4125
-F 0 "X501" H 6800 3850 50  0000 R CNN
-F 1 "ECS-100AX-040" H 6750 4375 50  0000 R CNN
-F 2 "Oscillators:Oscillator_DIP-14" H 7350 3775 50  0001 C CNN
-F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 6800 4125 50  0001 C CNN
-	1    6900 4125
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7900 4425 7900 4550
-Wire Wire Line
-	7900 4550 7375 4550
-Wire Wire Line
-	7375 4550 6900 4550
-Wire Wire Line
-	6900 4550 6900 4425
-Connection ~ 7375 4550
-Wire Wire Line
-	7900 3825 7900 3700
-Wire Wire Line
-	7900 3700 7325 3700
-Wire Wire Line
-	7325 3700 6900 3700
-Wire Wire Line
-	6900 3700 6900 3825
-Connection ~ 7325 3700
 Wire Wire Line
 	8800 5325 8175 5325
-Wire Wire Line
-	8175 5325 8175 4650
-Wire Wire Line
-	8175 4650 7475 4650
-Wire Wire Line
-	7475 4650 7475 4125
-Wire Wire Line
-	7475 4125 7200 4125
 Wire Wire Line
 	8800 5525 8225 5525
 Wire Wire Line
@@ -1091,4 +1032,30 @@ F 3 "~" H 8025 5375 50  0001 C CNN
 	1    8025 5375
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 5FCD4A93
+P 7900 4525
+F 0 "#PWR0139" H 7900 4275 50  0001 C CNN
+F 1 "GND" V 7800 4525 50  0000 R CNN
+F 2 "" H 7900 4525 50  0001 C CNN
+F 3 "" H 7900 4525 50  0001 C CNN
+	1    7900 4525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0140
+U 1 1 5FCD57A2
+P 7900 3925
+F 0 "#PWR0140" H 7900 3775 50  0001 C CNN
+F 1 "+5V" V 7825 3925 50  0000 L CNN
+F 2 "" H 7900 3925 50  0001 C CNN
+F 3 "" H 7900 3925 50  0001 C CNN
+	1    7900 3925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8175 4425 7900 4425
+Wire Wire Line
+	8175 4425 8175 5325
 $EndSCHEMATC

@@ -2497,100 +2497,67 @@ Wire Wire Line
 $Comp
 L Logic_74xx:74HCT00 IC102
 U 1 1 5FD1E154
-P 7100 1025
-F 0 "IC102" V 7075 900 50  0000 L CNN
-F 1 "74HCT00" V 7375 2525 50  0001 L CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7100 1025 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 7100 1025 50  0001 C CNN
-	1    7100 1025
+P 7100 1075
+F 0 "IC102" V 7075 950 50  0000 L CNN
+F 1 "74HCT00" V 7375 2575 50  0001 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7100 1075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 7100 1075 50  0001 C CNN
+	1    7100 1075
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74HCT00 IC102
 U 2 1 5FD21B16
-P 7500 1025
-F 0 "IC102" V 7475 875 50  0000 L CNN
-F 1 "74HCT00" H 7600 1175 50  0001 L CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7500 1025 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 7500 1025 50  0001 C CNN
-	2    7500 1025
+P 7500 1075
+F 0 "IC102" V 7475 925 50  0000 L CNN
+F 1 "74HCT00" H 7600 1225 50  0001 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7500 1075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 7500 1075 50  0001 C CNN
+	2    7500 1075
 	0    1    1    0   
 $EndComp
 $Comp
 L Logic_74xx:74HCT00 IC102
 U 3 1 5FD24E41
-P 7900 1025
-F 0 "IC102" V 7875 900 50  0000 L CNN
-F 1 "74HCT00" V 7945 1213 50  0001 L CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7900 1025 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 7900 1025 50  0001 C CNN
-	3    7900 1025
+P 7900 1075
+F 0 "IC102" V 7875 950 50  0000 L CNN
+F 1 "74HCT00" V 7945 1263 50  0001 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 7900 1075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 7900 1075 50  0001 C CNN
+	3    7900 1075
 	0    -1   1    0   
 $EndComp
 $Comp
 L Logic_74xx:74HCT00 IC102
 U 4 1 5FD25FC1
-P 8275 1025
-F 0 "IC102" V 8250 875 50  0000 L CNN
-F 1 "74HCT00" V 8500 650 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8275 1025 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 8275 1025 50  0001 C CNN
-	4    8275 1025
+P 8275 1075
+F 0 "IC102" V 8250 925 50  0000 L CNN
+F 1 "74HCT00" V 8500 700 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8275 1075 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hct00" H 8275 1075 50  0001 C CNN
+	4    8275 1075
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7100 3125 7100 1325
+	7200 3125 7200 1375
 Wire Wire Line
-	7200 3125 7200 1325
+	7200 1375 7500 1375
 Wire Wire Line
-	7200 1325 7500 1325
+	7300 3125 7300 1425
 Wire Wire Line
-	7300 3125 7300 1375
+	7300 1425 7900 1425
 Wire Wire Line
-	7300 1375 7900 1375
+	8275 1475 7400 1475
 Wire Wire Line
-	7900 1375 7900 1325
-Wire Wire Line
-	8275 1325 8275 1450
-Wire Wire Line
-	8275 1450 7400 1450
-Wire Wire Line
-	7400 1450 7400 3125
-Text GLabel 7000 725  1    50   Input ~ 0
+	7400 1475 7400 3125
+Text GLabel 7000 775  1    50   Input ~ 0
 A13
-Text GLabel 7400 725  1    50   Input ~ 0
+Text GLabel 7400 775  1    50   Input ~ 0
 A12
-Text GLabel 7800 725  1    50   Input ~ 0
+Text GLabel 7800 775  1    50   Input ~ 0
 A11
-Text GLabel 8175 725  1    50   Input ~ 0
+Text GLabel 8175 775  1    50   Input ~ 0
 A10
-Wire Wire Line
-	7200 725  7200 500 
-Wire Wire Line
-	7200 500  7600 500 
-Wire Wire Line
-	8375 500  8375 575 
-Wire Wire Line
-	8000 725  8000 500 
-Connection ~ 8000 500 
-Wire Wire Line
-	8000 500  8375 500 
-Wire Wire Line
-	7600 725  7600 500 
-Connection ~ 7600 500 
-Wire Wire Line
-	7600 500  8000 500 
-$Comp
-L Connector:Conn_01x02 J2
-U 1 1 5FEF73ED
-P 8950 675
-F 0 "J2" H 9030 667 50  0000 L CNN
-F 1 "Conn_01x02" H 9030 576 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8950 675 50  0001 C CNN
-F 3 "~" H 8950 675 50  0001 C CNN
-	1    8950 675 
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0154
 U 1 1 5FF29BAB
@@ -2605,15 +2572,14 @@ $EndComp
 $Comp
 L device:R R105
 U 1 1 5FF3AB29
-P 8525 575
-F 0 "R105" V 8525 575 50  0000 C CNN
-F 1 "4K7" V 8575 375 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8455 575 50  0001 C CNN
-F 3 "" H 8525 575 50  0001 C CNN
-	1    8525 575 
+P 8925 575
+F 0 "R105" V 8925 575 50  0000 C CNN
+F 1 "10K" V 8975 375 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8855 575 50  0001 C CNN
+F 3 "" H 8925 575 50  0001 C CNN
+	1    8925 575 
 	0    -1   -1   0   
 $EndComp
-Connection ~ 8375 575 
 $Comp
 L power:+5V #PWR0155
 U 1 1 5FF3B39F
@@ -2625,8 +2591,6 @@ F 3 "" H 9875 575 50  0001 C CNN
 	1    9875 575 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8375 575  8375 675 
 $Comp
 L device:C C105
 U 1 1 6000A744
@@ -2642,9 +2606,6 @@ Wire Wire Line
 	23900 -12450 25675 -12450
 Wire Wire Line
 	25675 -12450 25675 -13400
-Connection ~ 8375 675 
-Wire Wire Line
-	8375 675  8375 725 
 Wire Wire Line
 	3650 4625 8400 4625
 $Comp
@@ -2692,18 +2653,79 @@ Wire Wire Line
 	9550 1275 9275 1275
 Wire Wire Line
 	9275 1050 9275 1275
-Connection ~ 9275 1275
-Wire Wire Line
-	9275 1275 8750 1275
-Wire Wire Line
-	9275 750  9275 575 
-Connection ~ 9275 575 
 Wire Wire Line
 	9275 575  9800 575 
+$Comp
+L device:R R106
+U 1 1 5FC6BFB3
+P 8925 725
+F 0 "R106" V 8925 725 50  0000 C CNN
+F 1 "10K" V 8975 525 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8855 725 50  0001 C CNN
+F 3 "" H 8925 725 50  0001 C CNN
+	1    8925 725 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x03 J101
+U 1 1 5FC6F451
+P 8750 1175
+F 0 "J101" V 8850 1150 50  0000 L CNN
+F 1 "Conn_01x03" H 8830 1126 50  0001 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8750 1175 50  0001 C CNN
+F 3 "~" H 8750 1175 50  0001 C CNN
+	1    8750 1175
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	8375 675  8750 675 
+	9275 575  9075 575 
+Connection ~ 9275 575 
 Wire Wire Line
-	8750 775  8750 1275
+	8775 575  8650 575 
+Connection ~ 8000 575 
 Wire Wire Line
-	8675 575  9275 575 
+	8650 975  8650 575 
+Connection ~ 8650 575 
+Wire Wire Line
+	8650 575  8000 575 
+Wire Wire Line
+	9275 575  9275 725 
+Wire Wire Line
+	8750 975  8750 725 
+Wire Wire Line
+	8775 725  8750 725 
+Wire Wire Line
+	9075 725  9275 725 
+Connection ~ 9275 725 
+Wire Wire Line
+	9275 725  9275 750 
+Wire Wire Line
+	9275 1275 9025 1275
+Wire Wire Line
+	9025 1275 9025 975 
+Wire Wire Line
+	9025 975  8850 975 
+Connection ~ 9275 1275
+Wire Wire Line
+	7200 575  7200 775 
+Wire Wire Line
+	8000 575  8000 775 
+Wire Wire Line
+	7600 575  7600 775 
+Wire Wire Line
+	7900 1425 7900 1375
+Wire Wire Line
+	8275 1475 8275 1375
+Wire Wire Line
+	7100 3125 7100 1375
+Wire Wire Line
+	7200 575  7600 575 
+Connection ~ 7600 575 
+Wire Wire Line
+	7600 575  8000 575 
+Wire Wire Line
+	8750 725  8375 725 
+Wire Wire Line
+	8375 725  8375 775 
+Connection ~ 8750 725 
 $EndSCHEMATC
