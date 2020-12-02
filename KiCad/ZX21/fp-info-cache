@@ -1,4 +1,4 @@
-3743115608688132
+3744729115204063
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -56237,6 +56237,13 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket LongPads
 0
 40
 40
+zxbus
+D_DO-35_SOD27_P7.62mm_Horizontal
+D, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
 zxbus
 Pin_Header_Straight_2x23_Pitch2.54mm
 Through hole straight pin header, 2x23, 2.54mm pitch, double rows
