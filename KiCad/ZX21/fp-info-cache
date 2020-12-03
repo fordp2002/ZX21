@@ -1,4 +1,4 @@
-3744729115204063
+3746342583270455
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -56244,6 +56244,13 @@ D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
 2
 2
+zxbus
+Pin_Header_Straight_1x08_Pitch2.54mm
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+8
+8
 zxbus
 Pin_Header_Straight_2x23_Pitch2.54mm
 Through hole straight pin header, 2x23, 2.54mm pitch, double rows

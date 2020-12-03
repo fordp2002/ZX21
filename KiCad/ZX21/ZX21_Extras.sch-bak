@@ -65,7 +65,7 @@ U 1 1 6326BE4E
 P 800 2075
 F 0 "C301" H 850 2175 50  0000 L CNN
 F 1 "47U 25V" H 825 1975 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 838 1925 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 838 1925 50  0001 C CNN
 F 3 "" H 800 2075 50  0001 C CNN
 	1    800  2075
 	1    0    0    -1  
@@ -81,7 +81,7 @@ U 1 1 6326D10F
 P 1550 2025
 F 0 "C302" H 1575 2125 50  0000 L CNN
 F 1 "22U" H 1575 1925 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 1588 1875 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 1588 1875 50  0001 C CNN
 F 3 "" H 1550 2025 50  0001 C CNN
 	1    1550 2025
 	1    0    0    -1  

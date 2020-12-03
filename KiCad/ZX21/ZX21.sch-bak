@@ -106,7 +106,7 @@ U 1 1 60E299C9
 P 4750 2275
 F 0 "C5" H 4775 2375 50  0000 L CNN
 F 1 "1U" H 4775 2150 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4788 2125 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 4788 2125 50  0001 C CNN
 F 3 "" H 4750 2275 50  0001 C CNN
 	1    4750 2275
 	1    0    0    -1  
@@ -1144,7 +1144,7 @@ U 1 1 5FF34D45
 P 1250 7225
 F 0 "C3" H 1300 7325 50  0000 L CNN
 F 1 "22uF" H 1300 7125 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 1288 7075 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 1288 7075 50  0001 C CNN
 F 3 "" H 1250 7225 50  0001 C CNN
 	1    1250 7225
 	1    0    0    -1  
