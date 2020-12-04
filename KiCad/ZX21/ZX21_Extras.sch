@@ -1170,7 +1170,7 @@ U 1 1 5FCF1FC4
 P 4375 1650
 F 0 "J302" H 4275 1425 50  0000 L CNN
 F 1 "Conn_01x03" H 4455 1601 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4375 1650 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_1x03_Pitch2.54mm" H 4375 1650 50  0001 C CNN
 F 3 "~" H 4375 1650 50  0001 C CNN
 	1    4375 1650
 	1    0    0    -1  

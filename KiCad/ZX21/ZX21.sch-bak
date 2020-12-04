@@ -1704,7 +1704,7 @@ U 1 1 5FBE8356
 P 5750 7100
 F 0 "S1" H 5525 7450 50  0000 C CNN
 F 1 "EG4208A" H 5925 7450 50  0000 C CNN
-F 2 "SamacSys_Parts:EG4208A" H 6300 7450 50  0001 L CNN
+F 2 "SamacSys_Parts:EG4208" H 6300 7450 50  0001 L CNN
 F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf" H 4600 7750 50  0001 L CNN
 F 4 "Slide Switches 4P2T SIDE OP PC MNT" H 4600 7850 50  0001 L CNN "Description"
 F 5 "5" H 6300 7150 50  0001 L CNN "Height"

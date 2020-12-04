@@ -399,7 +399,7 @@ U 1 1 60395462
 P 4125 7275
 F 0 "J204" V 4125 6925 50  0000 L CNN
 F 1 "Conn_01x03" H 4205 7226 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4125 7275 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_1x03_Pitch2.54mm" H 4125 7275 50  0001 C CNN
 F 3 "~" H 4125 7275 50  0001 C CNN
 	1    4125 7275
 	0    1    1    0   
@@ -432,7 +432,7 @@ U 1 1 6036F7C3
 P 4500 7275
 F 0 "J203" V 4500 7450 50  0000 L CNN
 F 1 "Conn_01x03" H 4580 7226 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4500 7275 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_1x03_Pitch2.54mm" H 4500 7275 50  0001 C CNN
 F 3 "~" H 4500 7275 50  0001 C CNN
 	1    4500 7275
 	0    1    1    0   
@@ -1704,7 +1704,7 @@ U 1 1 5FBE8356
 P 5750 7100
 F 0 "S1" H 5525 7450 50  0000 C CNN
 F 1 "EG4208A" H 5925 7450 50  0000 C CNN
-F 2 "SamacSys_Parts:EG4208A" H 6300 7450 50  0001 L CNN
+F 2 "SamacSys_Parts:EG4208" H 6300 7450 50  0001 L CNN
 F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf" H 4600 7750 50  0001 L CNN
 F 4 "Slide Switches 4P2T SIDE OP PC MNT" H 4600 7850 50  0001 L CNN "Description"
 F 5 "5" H 6300 7150 50  0001 L CNN "Height"
@@ -2672,7 +2672,7 @@ U 1 1 5FC6F451
 P 8750 1175
 F 0 "J101" V 8850 1150 50  0000 L CNN
 F 1 "Conn_01x03" H 8830 1126 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8750 1175 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_1x03_Pitch2.54mm" H 8750 1175 50  0001 C CNN
 F 3 "~" H 8750 1175 50  0001 C CNN
 	1    8750 1175
 	0    1    1    0   

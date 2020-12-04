@@ -472,7 +472,7 @@ U 1 1 5FC8E1FE
 P 10200 4475
 F 0 "J502" V 10300 4350 50  0000 L CNN
 F 1 "Conn_01x08" H 10280 4376 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 10200 4475 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_1x08_Pitch2.54mm" H 10200 4475 50  0001 C CNN
 F 3 "~" H 10200 4475 50  0001 C CNN
 	1    10200 4475
 	1    0    0    -1  
@@ -483,7 +483,7 @@ U 1 1 5FC8ED83
 P 10200 5375
 F 0 "J503" V 10325 5250 50  0000 L CNN
 F 1 "Conn_01x08" H 10280 5276 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 10200 5375 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_1x08_Pitch2.54mm" H 10200 5375 50  0001 C CNN
 F 3 "~" H 10200 5375 50  0001 C CNN
 	1    10200 5375
 	1    0    0    -1  
@@ -1153,7 +1153,7 @@ U 1 1 5FCE4A40
 P 7700 4125
 F 0 "J504" H 7750 4525 50  0000 C CNN
 F 1 "Conn_01x08" H 7618 4551 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 7700 4125 50  0001 C CNN
+F 2 "zxbus:Pin_Header_Straight_1x08_Pitch2.54mm" H 7700 4125 50  0001 C CNN
 F 3 "~" H 7700 4125 50  0001 C CNN
 	1    7700 4125
 	-1   0    0    -1  

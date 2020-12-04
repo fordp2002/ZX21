@@ -1,4 +1,4 @@
-3746342583270455
+3751171163754875
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -46809,6 +46809,13 @@ powermite3
 0
 0
 SamacSys_Parts
+EG4208
+EG4208A-1
+Switch
+0
+14
+14
+SamacSys_Parts
 EG4208A
 EG4208A-1
 Switch
@@ -56244,6 +56251,20 @@ D DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
 2
 2
+zxbus
+MountingHole_2.7mm
+Mounting Hole 2.7mm, no annular
+mounting hole 2.7mm no annular
+0
+0
+0
+zxbus
+Pin_Header_Straight_1x03_Pitch2.54mm
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 zxbus
 Pin_Header_Straight_1x08_Pitch2.54mm
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
