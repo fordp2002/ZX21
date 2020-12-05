@@ -41,7 +41,7 @@ U 1 1 63267ABE
 P 1175 1500
 F 0 "IC301" H 1175 1742 50  0000 C CNN
 F 1 "3V3 PSU" H 1175 1651 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220-3_Horizontal" H 1200 1350 50  0001 L CIN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 1200 1350 50  0001 L CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1175 1450 50  0001 C CNN
 	1    1175 1500
 	1    0    0    -1  

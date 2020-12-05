@@ -1896,7 +1896,7 @@ U 1 1 6046A40F
 P 2125 1175
 F 0 "C101" H 2050 1375 50  0000 L CNN
 F 1 "22U" H 2125 1275 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 2163 1025 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D5.0mm_P2.50mm" H 2163 1025 50  0001 C CNN
 F 3 "" H 2125 1175 50  0001 C CNN
 	1    2125 1175
 	1    0    0    -1  
